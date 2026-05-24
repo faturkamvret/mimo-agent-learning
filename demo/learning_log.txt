@@ -1,0 +1,115 @@
+[15:45:45] [demo-learner] 
+🎯 Solving: Sort 1000 items efficiently
+[15:45:45] [demo-learner] ============================================================
+[15:45:45] [demo-learner] 
+[Round 1]
+[15:45:45] [demo-learner]   Strategy: brute_force — Starting with brute_force approach
+[15:45:45] [demo-learner]   Score: 2.7/10 (0.00s)
+[15:45:45] [demo-learner]   Reflect: First attempt at 'Sort 1000 items efficiently' using brute_force. Score: 2.6817388027658247/10.
+[15:45:45] [demo-learner]   Trend: unknown
+[15:45:45] [demo-learner]   ⭐ New best score!
+[15:45:45] [demo-learner] 
+[Round 2]
+[15:45:45] [demo-learner]   Strategy: merge_sort — Previous strategy 'brute_force' was suboptimal, trying merge_sort
+[15:45:45] [demo-learner]   Score: 7.3/10 (0.00s)
+[15:45:45] [demo-learner]   Reflect: Improvement of +4.6 points. Strategy 'merge_sort' working well.
+[15:45:45] [demo-learner]   Trend: improving
+[15:45:45] [demo-learner]   ⭐ New best score!
+[15:45:45] [demo-learner] 
+[Round 3]
+[15:45:45] [demo-learner]   Strategy: optimized_merge — Previous strategy 'merge_sort' was suboptimal, trying optimized_merge
+[15:45:45] [demo-learner]   Score: 9.0/10 (0.00s)
+[15:45:45] [demo-learner]   Reflect: Improvement of +1.7 points. Strategy 'optimized_merge' working well.
+[15:45:45] [demo-learner]   Trend: improving
+[15:45:45] [demo-learner]   ⭐ New best score!
+[15:45:45] [demo-learner] 
+[Round 4]
+[15:45:45] [demo-learner]   Strategy: brute_force — Starting with brute_force approach
+[15:45:45] [demo-learner]   Score: 2.6/10 (0.00s)
+[15:45:45] [demo-learner]   Reflect: Regression of -6.4 points. Strategy 'brute_force' may not be optimal.
+[15:45:45] [demo-learner]   Trend: declining
+[15:45:45] [demo-learner] 
+============================================================
+[15:45:45] [demo-learner] 📊 Results:
+[15:45:45] [demo-learner]   Best strategy: optimized_merge (9.0/10)
+[15:45:45] [demo-learner]   Rounds: 4
+[15:45:45] [demo-learner]   Improvement: +16.7%
+[15:45:45] [demo-learner] ============================================================
+[15:45:45] [demo-learner] 
+🎯 Solving: Search for an element in a large dataset
+[15:45:45] [demo-learner] ============================================================
+[15:45:45] [demo-learner] 
+[Round 1]
+[15:45:45] [demo-learner]   Strategy: linear_scan — Starting with linear_scan approach
+[15:45:45] [demo-learner]   Score: 3.9/10 (0.00s)
+[15:45:45] [demo-learner]   Reflect: Improvement of +1.3 points. Strategy 'linear_scan' working well.
+[15:45:45] [demo-learner]   Trend: improving
+[15:45:45] [demo-learner]   ⭐ New best score!
+[15:45:45] [demo-learner] 
+[Round 2]
+[15:45:45] [demo-learner]   Strategy: binary_search — Previous strategy 'linear_scan' was suboptimal, trying binary_search
+[15:45:45] [demo-learner]   Score: 7.1/10 (0.00s)
+[15:45:45] [demo-learner]   Reflect: Improvement of +3.2 points. Strategy 'binary_search' working well.
+[15:45:45] [demo-learner]   Trend: improving
+[15:45:45] [demo-learner]   ⭐ New best score!
+[15:45:45] [demo-learner] 
+[Round 3]
+[15:45:45] [demo-learner]   Strategy: hash_lookup — Previous strategy 'binary_search' was suboptimal, trying hash_lookup
+[15:45:45] [demo-learner]   Score: 8.9/10 (0.00s)
+[15:45:45] [demo-learner]   Reflect: Improvement of +1.7 points. Strategy 'hash_lookup' working well.
+[15:45:45] [demo-learner]   Trend: improving
+[15:45:45] [demo-learner]   ⭐ New best score!
+[15:45:45] [demo-learner] 
+[Round 4]
+[15:45:45] [demo-learner]   Strategy: linear_scan — Starting with linear_scan approach
+[15:45:45] [demo-learner]   Score: 4.3/10 (0.00s)
+[15:45:45] [demo-learner]   Reflect: Regression of -4.6 points. Strategy 'linear_scan' may not be optimal.
+[15:45:45] [demo-learner]   Trend: declining
+[15:45:45] [demo-learner] 
+============================================================
+[15:45:45] [demo-learner] 📊 Results:
+[15:45:45] [demo-learner]   Best strategy: hash_lookup (8.9/10)
+[15:45:45] [demo-learner]   Rounds: 4
+[15:45:45] [demo-learner]   Improvement: +12.5%
+[15:45:45] [demo-learner] ============================================================
+[15:45:45] [demo-learner] 
+🎯 Solving: Optimize resource allocation across 50 nodes
+[15:45:45] [demo-learner] ============================================================
+[15:45:45] [demo-learner] 
+[Round 1]
+[15:45:45] [demo-learner]   Strategy: greedy — Starting with greedy approach
+[15:45:45] [demo-learner]   Score: 4.7/10 (0.00s)
+[15:45:45] [demo-learner]   Reflect: Improvement of +0.4 points. Strategy 'greedy' working well.
+[15:45:45] [demo-learner]   Trend: improving
+[15:45:45] [demo-learner]   ⭐ New best score!
+[15:45:45] [demo-learner] 
+[Round 2]
+[15:45:45] [demo-learner]   Strategy: dynamic_programming — Previous strategy 'greedy' was suboptimal, trying dynamic_programming
+[15:45:45] [demo-learner]   Score: 8.0/10 (0.00s)
+[15:45:45] [demo-learner]   Reflect: Improvement of +3.3 points. Strategy 'dynamic_programming' working well.
+[15:45:45] [demo-learner]   Trend: improving
+[15:45:45] [demo-learner]   ⭐ New best score!
+[15:45:45] [demo-learner] 
+[Round 3]
+[15:45:45] [demo-learner]   Strategy: meta_heuristic — Previous strategy 'dynamic_programming' was suboptimal, trying meta_heuristic
+[15:45:45] [demo-learner]   Score: 7.6/10 (0.00s)
+[15:45:45] [demo-learner]   Reflect: Regression of -0.4 points. Strategy 'meta_heuristic' may not be optimal.
+[15:45:45] [demo-learner]   Trend: declining
+[15:45:45] [demo-learner] 
+[Round 4]
+[15:45:45] [demo-learner]   Strategy: greedy — Starting with greedy approach
+[15:45:45] [demo-learner]   Score: 4.6/10 (0.00s)
+[15:45:45] [demo-learner]   Reflect: Regression of -3.0 points. Strategy 'greedy' may not be optimal.
+[15:45:45] [demo-learner]   Trend: declining
+[15:45:45] [demo-learner] 
+============================================================
+[15:45:45] [demo-learner] 📊 Results:
+[15:45:45] [demo-learner]   Best strategy: dynamic_programming (8.0/10)
+[15:45:45] [demo-learner]   Rounds: 4
+[15:45:45] [demo-learner]   Improvement: +16.3%
+[15:45:45] [demo-learner] ============================================================
+[15:45:45] [demo-learner] 
+🪞 Performing global reflection...
+[15:45:45] [demo-learner]   Best strategy: optimized_merge (avg: 9.0)
+[15:45:45] [demo-learner]   Worst strategy: brute_force (avg: 2.6)
+[15:45:45] [demo-learner]   Strategies tried: 9
